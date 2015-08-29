@@ -8,9 +8,11 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+	<plugins>
     <plugin name="cordova-plugin-whitelist" version="1" />
 	<plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
-    <access origin="*" />
+    </plugins>
+	<access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
